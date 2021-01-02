@@ -1,0 +1,211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FF03972
+P 2750 4050
+F 0 "J1" H 2858 4231 50  0000 C CNN
+F 1 "3.7V" H 2858 4140 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 2750 4050 50  0001 C CNN
+F 3 "~" H 2750 4050 50  0001 C CNN
+	1    2750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q3
+U 1 1 5FF053BB
+P 6550 4700
+F 0 "Q3" H 6741 4654 50  0000 L CNN
+F 1 "BC547" H 6741 4745 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6750 4625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 6550 4700 50  0001 L CNN
+	1    6550 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Motor:Motor_DC M3
+U 1 1 5FF0F6E6
+P 6650 5300
+F 0 "M3" H 6808 5296 50  0000 L CNN
+F 1 "Motor_DC" H 6808 5205 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6650 5210 50  0001 C CNN
+F 3 "~" H 6650 5210 50  0001 C CNN
+	1    6650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5FF045FE
+P 3600 2000
+F 0 "Q1" H 3791 2046 50  0000 L CNN
+F 1 "BC547" H 3791 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3800 1925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 3600 2000 50  0001 L CNN
+	1    3600 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_DC M1
+U 1 1 5FF0CC78
+P 3500 1200
+F 0 "M1" H 3658 1196 50  0000 L CNN
+F 1 "Motor_DC" H 3658 1105 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3500 1110 50  0001 C CNN
+F 3 "~" H 3500 1110 50  0001 C CNN
+	1    3500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q2
+U 1 1 5FF057A2
+P 3600 4700
+F 0 "Q2" H 3791 4746 50  0000 L CNN
+F 1 "BC547" H 3791 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3800 4625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 3600 4700 50  0001 L CNN
+	1    3600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Motor:Motor_DC M2
+U 1 1 5FF0FB61
+P 3500 5400
+F 0 "M2" H 3342 5304 50  0000 R CNN
+F 1 "Motor_DC" H 3342 5395 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3500 5310 50  0001 C CNN
+F 3 "~" H 3500 5310 50  0001 C CNN
+	1    3500 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L ESP8266:NodeMCU_1.0_(ESP-12E) U1
+U 1 1 5FEFFDC0
+P 5150 3450
+F 0 "U1" H 5150 4537 60  0000 C CNN
+F 1 "NodeMCU_1.0_(ESP-12E)" H 5150 4431 60  0000 C CNN
+F 2 "ESP8266:NodeMCU1.0(12-E)" H 4550 2600 60  0001 C CNN
+F 3 "" H 4550 2600 60  0000 C CNN
+	1    5150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC547 Q4
+U 1 1 5FF05093
+P 6550 2000
+F 0 "Q4" H 6741 2046 50  0000 L CNN
+F 1 "BC547" H 6741 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6750 1925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 6550 2000 50  0001 L CNN
+	1    6550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Motor:Motor_DC M4
+U 1 1 5FF0EEFF
+P 6650 1300
+F 0 "M4" H 6492 1204 50  0000 R CNN
+F 1 "Motor_DC" H 6492 1295 50  0000 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6650 1210 50  0001 C CNN
+F 3 "~" H 6650 1210 50  0001 C CNN
+	1    6650 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 1800 3500 1500
+Wire Wire Line
+	6650 1500 6650 1800
+Wire Wire Line
+	3500 1000 6650 1000
+Wire Wire Line
+	6650 1000 7450 1000
+Wire Wire Line
+	7450 1000 7450 5700
+Connection ~ 6650 1000
+Wire Wire Line
+	4950 2000 4950 3550
+Wire Wire Line
+	4950 3550 5950 3550
+Wire Wire Line
+	5200 2000 5200 3450
+Wire Wire Line
+	5200 3450 5950 3450
+Wire Wire Line
+	5200 2000 6350 2000
+Wire Wire Line
+	5950 3650 4950 3650
+Wire Wire Line
+	4950 3650 4950 4700
+Wire Wire Line
+	4950 4700 3800 4700
+Wire Wire Line
+	5950 3750 5200 3750
+Wire Wire Line
+	5200 3750 5200 4700
+Wire Wire Line
+	5200 4700 6350 4700
+Wire Wire Line
+	3500 2200 3500 3900
+Wire Wire Line
+	4350 4050 3500 4050
+Connection ~ 3500 4050
+Wire Wire Line
+	3500 4050 3500 4500
+Wire Wire Line
+	2950 4050 3500 4050
+Wire Wire Line
+	2950 4150 3150 4150
+Wire Wire Line
+	3150 5700 3150 4150
+Connection ~ 3150 4150
+Wire Wire Line
+	3150 5700 3500 5700
+Wire Wire Line
+	6650 4900 6650 5100
+Wire Wire Line
+	6650 5600 6650 5700
+Connection ~ 6650 5700
+Wire Wire Line
+	6650 5700 7450 5700
+Wire Wire Line
+	3500 4900 3500 5100
+Wire Wire Line
+	3500 5600 3500 5700
+Connection ~ 3500 5700
+Wire Wire Line
+	3500 5700 6650 5700
+Wire Wire Line
+	3800 2000 4950 2000
+Wire Wire Line
+	6650 2200 6650 4150
+Connection ~ 6650 4150
+Wire Wire Line
+	6650 4150 6650 4500
+Wire Wire Line
+	7600 4150 7600 5850
+Wire Wire Line
+	7600 5850 2550 5850
+Wire Wire Line
+	2550 5850 2550 3900
+Wire Wire Line
+	2550 3900 3500 3900
+Wire Wire Line
+	3500 3900 3500 4050
+Connection ~ 3500 3900
+Wire Wire Line
+	6650 4150 7600 4150
+Wire Wire Line
+	3150 4150 4350 4150
+$EndSCHEMATC
