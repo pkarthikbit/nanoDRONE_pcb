@@ -208,4 +208,31 @@ Wire Wire Line
 	6650 4150 7600 4150
 Wire Wire Line
 	3150 4150 4350 4150
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5FF16475
+P 6350 3550
+F 0 "J2" H 6430 3542 50  0000 L CNN
+F 1 "MPU6050 Dev brd" H 6430 3451 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical" H 6350 3550 50  0001 C CNN
+F 3 "~" H 6350 3550 50  0001 C CNN
+	1    6350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3250 5950 3250
+Wire Wire Line
+	6150 3350 5950 3350
+Wire Wire Line
+	5950 2850 6100 2850
+Wire Wire Line
+	6100 2850 6100 3450
+Wire Wire Line
+	6100 3450 6150 3450
+Wire Wire Line
+	5950 2950 6050 2950
+Wire Wire Line
+	6050 2950 6050 3550
+Wire Wire Line
+	6050 3550 6150 3550
 $EndSCHEMATC
